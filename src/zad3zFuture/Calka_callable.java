@@ -1,4 +1,4 @@
-package zad2ExecService;
+package zad3zFuture;
 
 
 import java.util.concurrent.Callable;
@@ -25,21 +25,18 @@ public class Calka_callable implements Callable<Double> {
     private double getFunction(double x) {
 	return Math.sin(x);
     }
-    
-    public double compute_integral() {
-	double calka = 0;
-	int i;
-	for(i=0; i<N; i++){
-	    double x1 = xp+i*dx;
-	    double x2 = x1+dx;
-	    calka += ((getFunction(x1) + getFunction(x2))/2.)*dx;
-	}
-	System.out.println("Calka czastkowa: " + calka);
-	return calka;
-    }
+
 
 	@Override
 	public Double call() throws Exception {
-		return null;
+		double calka = 0;
+		int i;
+		for(i=0; i<N; i++){
+			double x1 = xp+i*dx;
+			double x2 = x1+dx;
+			calka += ((getFunction(x1) + getFunction(x2))/2.)*dx;
+		}
+		System.out.println("Calka czastkowa: " + calka);
+		return calka;
 	}
 }

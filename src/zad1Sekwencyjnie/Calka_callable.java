@@ -1,9 +1,7 @@
-package zad1;
-
-import java.util.concurrent.Callable;
+package zad1Sekwencyjnie;
 
 
-//public class Calka_callable implements Callable<Double>{
+
 public class Calka_callable{
     
     private double dx;

@@ -1,10 +1,10 @@
-package zad1;
+package zad2ExecService;
+
 
 import java.util.concurrent.Callable;
 
+public class Calka_callable implements Callable<Double> {
 
-//public class Calka_callable implements Callable<Double>{
-public class Calka_callable{
     
     private double dx;
     private double xp;
@@ -37,5 +37,9 @@ public class Calka_callable{
 	System.out.println("Calka czastkowa: " + calka);
 	return calka;
     }
-        
+
+	@Override
+	public Double call() throws Exception {
+		return null;
+	}
 }
