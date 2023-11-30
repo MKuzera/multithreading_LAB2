@@ -4,20 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a606427-343e-4064-836d-ff38fcff4034" name="Changes" comment="">
+    <list default="true" id="2a606427-343e-4064-836d-ff38fcff4034" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/zad4joinfork/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zad4joinfork/mergesort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zad1Sekwencyjnie/Calka_callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zad1Sekwencyjnie/Calka_callable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zad1Sekwencyjnie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zad1Sekwencyjnie/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zad2ExecService/Calka_callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zad2ExecService/Calka_callable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zad2ExecService/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zad2ExecService/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zad3zFuture/Calka_callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zad3zFuture/Calka_callable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zad2ExecService/Calka_callable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zad2ExecService/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zad3zFuture/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zad3zFuture/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,21 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Java_studia/multithreading_LAB2/src/zad3zFuture",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Java_studia/multithreading_LAB2/src/zad3zFuture&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Java_studia\multithreading_LAB2\src\zad3zFuture" />
@@ -67,7 +72,19 @@
       <option name="presentableId" value="Default" />
       <updated>1700726541895</updated>
       <workItem from="1700726543041" duration="5341000" />
+      <workItem from="1700734870614" duration="41000" />
+      <workItem from="1700809209308" duration="5133000" />
+      <workItem from="1700816090105" duration="39000" />
+      <workItem from="1701329861606" duration="2372000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1700734903671</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700734903671</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

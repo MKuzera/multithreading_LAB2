@@ -13,17 +13,17 @@ public class Main {
     static final Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
 
-
+        int zadania = 20;
         double start = 0;
         double end = Math.PI;
-        double zakres = (end-start)/THREADS_NUMBER;
-
+        double zakres = (end-start)/zadania;
         int tasks = 100;
-
         ExecutorService executorService = Executors.newFixedThreadPool(THREADS_NUMBER);
-        // tworzy pule o okreslnej liczbie wątkow
+
+
 
         List<Future<Double>> wyniki = new ArrayList<>();
+
         //Future zawiera wynik ktory moze byc obliczony w tle (synchronicznie)
         //czyli lista z wynikami ktore beda dodawane na biezaco
 
@@ -37,7 +37,7 @@ public class Main {
 
         try {
 
-            for (int i = 0; i < THREADS_NUMBER; i++) {
+            for (int i = 0; i < zadania; i++) {
                 Calka_callable calka = new Calka_callable(start + zakres * i, start + zakres * (i + 1), dx); // tworzy obiekt Callable (tylko callable lub runnable moze byc w exec service)
                 wynik = executorService.submit(calka);
                 wyniki.add(wynik);
